@@ -1,0 +1,66 @@
+
+
+body,.fong,.div2.div3{
+    box-shadow: 3px 3px 3px 3px gray;
+
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* First div */
+body{
+
+    justify-content: center;
+    align-items: center;
+    height: 44rem;
+  
+    gap: 20px;
+}
+input[type=text],input[type=password]{
+    width: 260px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 0px 40px 0px 10px;
+    height: 40px;
+}
+#img{
+    position: relative;
+    top: -2.9rem;
+    left: 8.5rem;
+}
+.fong{
+    gap: 15px;
+    width: 350px;
+    height: 200px;
+    /* border: 1px solid; */
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Second div */
+.div2{
+    width: 400px;
+    /* border: 1px solid; */
+    height: 180px;
+    box-shadow: 3px 3px 3px 3px gray;
+
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+}
+/*  third div */
+.div3{
+    font-size: 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    box-shadow: 3px 3px 3px 3px gray;
+
+    /* border: 1px solid;    */
+}
